@@ -12,7 +12,7 @@ namespace XamarinGit
         {
             tab1Page = new NavigationPage(new Views.ReposView())
             {
-                Title = "By name",
+                Title = "BY NAME",
                 Icon = "square.png"
             };
             Children.Add(tab1Page);
@@ -20,7 +20,7 @@ namespace XamarinGit
             // The tab icon is pulled from the child page's Icon (for iOS)
             tab2Page = new NavigationPage(new Views.MyReposView())
             {
-                Title = "By user",
+                Title = "BY USER",
                 Icon = "circle" // extension isn't required
             };
             Children.Add(tab2Page);
