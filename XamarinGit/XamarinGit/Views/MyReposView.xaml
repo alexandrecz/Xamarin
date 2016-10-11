@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinGit.Views.MyReposView">
+  <Grid>
+    <StackLayout Padding="20" Spacing="20">
+      <Entry x:Name="repository" Text="{Binding Name}"  Placeholder="username" ></Entry>
+      <Button Text="Search" Command="{Binding GetReposCommand}"></Button>
+      <ListView ItemsSource="{Binding Repos}" x:Name="ListRepos">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <TextCell Text="{Binding Name}"></TextCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+    <ActivityIndicator IsRunning="{Binding IsLoading}" IsVisible="{Binding IsLoading}" HorizontalOptions="Center" VerticalOptions="Center" />
+  </Grid>
+
+</ContentPage>
