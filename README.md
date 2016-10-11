@@ -3,7 +3,7 @@ A bunch of Android/IOS projetcs written in Xamarin Forms
 
  * XamarinGit { a multitab app that use the github api to find public repositories by name or even by username};
  
- * XamarinUI { a simple app that show the mainly UI Componentes of XamarinForms}; ---comming soon
+ * XamarinUI { a simple app that show the mainly UI Componentes of XamarinForms}; 
  
  * XamarinThemes { a simple example of how make play with differents themes}; ---comming soon
  
