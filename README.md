@@ -5,6 +5,8 @@ A bunch of Android/IOS projetcs written in Xamarin Forms
  
  * XamarinUI { a simple app that show the mainly UI Componentes of XamarinForms}; ---comming soon
  
+ * XamarinThemes { a simple example of how make play with differents themes}; ---comming soon
+ 
  * XamarinNotification { an app that play with Signalr in order to sync and then bring some notifications}; ---comming soon
  
  * XamarinQRCode { a optical reader app that use the QRCode pattern}; ---comming soon
