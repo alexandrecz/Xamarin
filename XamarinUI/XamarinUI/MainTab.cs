@@ -8,6 +8,7 @@ namespace XamarinUI
         readonly NavigationPage tab1Page;
         readonly NavigationPage tab2Page;
         readonly NavigationPage tab3Page;
+        readonly NavigationPage tab4Page;
 
         public MainTab()
         {
@@ -26,9 +27,15 @@ namespace XamarinUI
                 Title = "PICKER",
                 Icon = "square.png"
             };
+            tab4Page = new NavigationPage(new Views.SearchBarView())
+            {
+                Title = "SEARCH",
+                Icon = "square.png"
+            };
             Children.Add(tab1Page);
             Children.Add(tab2Page);
             Children.Add(tab3Page);
+            Children.Add(tab4Page);
         }
     }
 }
