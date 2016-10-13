@@ -16,7 +16,7 @@ namespace XamarinWeb
         {
             tab1Page = new NavigationPage(new Views.MainView())
             {
-                Title = "REST",
+                Title = "WEBAPI",
                 Icon = "home.png"
             };
             Children.Add(tab1Page);

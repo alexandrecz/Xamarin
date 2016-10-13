@@ -11,19 +11,17 @@ using XamarinWeb.Model;
 
 namespace XamarinWeb.Api
 {
-    public class RestApi
+    public class NetWebApi
     {
 
         HttpClient client;
         Model.Repo repo;
 
-        public RestApi()
+        public NetWebApi()
         {
             client = new HttpClient();
             client.MaxResponseContentBufferSize = 256000;
         }
-
-
 
         public static async Task<List<Model.Repo>> GetReposAsync()
         {

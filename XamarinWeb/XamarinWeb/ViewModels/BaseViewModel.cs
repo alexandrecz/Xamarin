@@ -41,7 +41,7 @@ namespace XamarinWeb.ViewModels
             GetReposCommand = new Xamarin.Forms.Command(async () =>
             {
                 IsLoading = true;
-                var repos = await Api.RestApi.GetReposAsync();
+                var repos = await Api.NetWebApi.GetReposAsync();
                 Repos = new ObservableCollection<Model.Repo>(repos);
                 IsLoading = false;
             });

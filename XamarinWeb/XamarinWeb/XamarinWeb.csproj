@@ -35,7 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Api\RestApi.cs" />
+    <Compile Include="Api\NetWebApi.cs" />
     <Compile Include="App.cs" />
     <Compile Include="MainTab.cs" />
     <Compile Include="Model\Repo.cs" />
