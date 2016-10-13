@@ -7,6 +7,7 @@ namespace XamarinUI
     {
         readonly NavigationPage tab1Page;
         readonly NavigationPage tab2Page;
+        readonly NavigationPage tab3Page;
 
         public MainTab()
         {
@@ -15,13 +16,20 @@ namespace XamarinUI
                 Title = "POPUP",
                 Icon = "square.png"
             };
-            //tab2Page = new NavigationPage(new Views.ActionSheetView())
-            //{
-            //    Title = "ACTIONSHEET",
-            //    Icon = "square.png"
-            //};
+            tab2Page = new NavigationPage(new Views.DateView())
+            {
+                Title = "DATE",
+                Icon = "square.png"
+            };
+            tab3Page = new NavigationPage(new Views.PickerView())
+            {
+                Title = "PICKER",
+                Icon = "square.png"
+            };
             Children.Add(tab1Page);
-            //Children.Add(tab2Page);
+            Children.Add(tab2Page);
+            Children.Add(tab3Page);
         }
     }
 }
+

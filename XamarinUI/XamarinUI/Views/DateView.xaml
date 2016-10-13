@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="XamarinUI.Views.DateView">
+
+  <StackLayout Padding="20" Spacing="20">
+    <Label Text="DatePicker" VerticalOptions="Center"  />
+    <DatePicker VerticalOptions="Center" Date="{x:Static sys:DateTime.Now}">
+      <DatePicker.Format>dd-MM-yyyy</DatePicker.Format>
+      <DatePicker.MinimumDate>
+        <sys:DateTime x:FactoryMethod="Parse">
+          <x:Arguments>
+            <x:String>Jan 1 2000</x:String>
+          </x:Arguments>
+        </sys:DateTime>
+      </DatePicker.MinimumDate>
+      <DatePicker.MaximumDate>
+        <sys:DateTime x:FactoryMethod="Parse">
+          <x:Arguments>
+            <x:String>Dec 31 2050</x:String>
+          </x:Arguments>
+        </sys:DateTime>
+      </DatePicker.MaximumDate>
+    </DatePicker>
+    <Label Text="TimePicker" VerticalOptions="Center" />
+    <TimePicker></TimePicker>
+  </StackLayout>
+</ContentPage>
