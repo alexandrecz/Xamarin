@@ -11,6 +11,6 @@ A bunch of Android/IOS projetcs written in Xamarin Forms
  
  * XamarinQRCode { a optical reader app that use the QRCode pattern}; ---comming soon
  
- * XamarinWeb { an app that make a communication with Asp.Net webApi}; ---comming soon
+ * XamarinWeb { an app that make a communication with Asp.Net webApi}; 
  
  * XamarinData { a simple example of how make an app which put the data in local repository}; ---comming soon
