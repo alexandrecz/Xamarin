@@ -62,3 +62,5 @@ C:\Users\Progress\Documents\GitHub\Xamarin\XamarinGit\XamarinGit\obj\Debug\Xamar
 C:\Users\Progress\Documents\GitHub\Xamarin\XamarinGit\XamarinGit\bin\Debug\XamarinGit.dll.mdb
 C:\Users\Progress\Documents\GitHub\Xamarin\XamarinGit\XamarinGit\obj\Debug\XamarinGit.dll.mdb
 C:\Users\Progress\Documents\GitHub\Xamarin\XamarinGit\XamarinGit\bin\Debug\XamarinGit.dll.mdb
+C:\Users\Progress\Documents\GitHub\Xamarin\XamarinGit\XamarinGit\obj\Debug\XamarinGit.dll.mdb
+C:\Users\Progress\Documents\GitHub\Xamarin\XamarinGit\XamarinGit\bin\Debug\XamarinGit.dll.mdb
